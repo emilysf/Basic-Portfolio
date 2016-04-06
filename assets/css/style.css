@@ -1,0 +1,60 @@
+body {
+	background-image: url(assets/images/squared_metal_@2X.png);
+}
+
+h1  {
+	color:#fff;
+	font-size: 2em;
+}
+h2 {
+
+}
+h3 {
+
+}
+header{
+	overflow:auto;
+	background-color: #fff;
+	height:100px;
+
+}
+hgroup {
+	background-color: #4aaaa5;
+	float:left;
+	padding:20px;
+	color:#fff;
+	width:120px;
+	text-align: center
+	margin-left:50px;
+}
+nav {
+    float:right;
+    padding:20px;
+    color:gray;
+}
+section {
+	width:650px;
+	float:left;
+	overflow: auto;
+}
+aside {
+	width:270px;
+	float:right;
+	overflow: auto;
+}
+footer {
+	
+}
+ul {
+	
+}
+li {
+	display:inline;
+}
+
+
+
+
+
+
+

@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+  <div class="wrapper">
   <header>
     <hgroup>
       <h1>Emily</h1>
@@ -24,13 +25,16 @@
     	<hr>
       <br>
     	<form>
-    		First name <br>
-  			<input type="text" name="firstname"><br>
-  			Last name <br>
-  			<input type="text" name="lastname"><br>
+    		Name <br>
+  			<input type="text" name="name" style="width:99%; height:20px; margin-top:2px;"><br>
+        <br>
+  			Email <br>
+  			<input type="text" name="email" style="width:99%; height:20px; margin-top:2px;"><br>
+        <br>
   			Message <br>
-  			<input type="text" name="message"><br>
-  			<input type="submit" value="submit">
+  			<input type="text" name="message"style="width:99%; height:150px; margin-top:2px;"><br>
+        <br>
+  			<input type="submit" class="button" value="Submit">
     	</form>
   </section>
   <aside>
@@ -38,17 +42,15 @@
       <br>
     	<hr>
       <br>
-    	<ul>
-	      <li><a href="https://github.com/emilysf" target="_blank"><img src="assets/images/github_icon.png" style="width:60px; height:60px;"></a></li>
-        <li><a href="https://www.linkedin.com/in/emily-frazin-780493111" target="_blank"><img src="assets/images/linkedin_icon.png" style="width:60px; height:60px;"></a></li>
-        <li><a href="http://stackexchange.com/users/8187834/emily" target="_blank"><img src="assets/images/stack_icon.png" style="width:55px; height:55px; margin-bottom: 2px; margin-left: 2px;"></a></li>
-	    </ul>  
+      <a href="https://github.com/emilysf" target="_blank"><img src="assets/images/github_icon.png" style="width:60px; height:60px;"></a>
+      <a href="https://www.linkedin.com/in/emily-frazin-780493111" target="_blank"><img src="assets/images/linkedin_icon.png" style="width:60px; height:60px;"></a>
+      <a href="http://stackexchange.com/users/8187834/emily" target="_blank"><img src="assets/images/stack_icon.png" style="width:54px; height:54px; margin-bottom: 2px; margin-left: 2px;"></a>  
   </aside>
   <br>
-  <div id="wrapper">
-    <div id="footer">
+    <div class="push"></div>
+  </div>
+  <div class="footer">
       &copy; Copyright 2016 Emily Frazin
-    </div>
   </div>
 </body>
 </html>
